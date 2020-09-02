@@ -1,7 +1,7 @@
-import * as core from '@actions/core';
 import { getConfig, verifyConfigValues } from './configuration';
 import { validateJsons } from './json-validator';
 
+const core = require('@actions/core');
 async function run() {
     try {
         const configuration = getConfig();
