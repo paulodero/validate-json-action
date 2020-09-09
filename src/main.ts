@@ -1,10 +1,10 @@
-//import { getConfig, verifyConfigValues } from './configuration';
-//import { validateJsons } from './json-validator';
+import { getConfig, verifyConfigValues } from './configuration';
+import { validateJsons } from './json-validator';
 
 const core = require('@actions/core');
-const getConfig = require('./configuration');
-const verifyConfigValues = require('./configuration');
-const validateJsons = require('./json-validator');
+//const getConfig = require('./configuration');
+//const verifyConfigValues = require('./configuration');
+//const validateJsons = require('./json-validator');
 async function run() {
     try {
         const configuration = getConfig();
